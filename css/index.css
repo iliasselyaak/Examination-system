@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(217, 238, 236);
+    color: rgb(255, 255, 255);
+}
+.header {
+    max-width: 100%;
+    background-color: rgb(72, 112, 112);
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+}
+.body {
+    max-width: 100%;
+    margin-left: 15%;
+    padding-top: 1em;
+    padding-bottom: .25em;
+    padding-left: 1em;
+    color:black;
+}
+.button {
+    background-color: rgb(150, 175, 175);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(140, 167, 167);
+    border-radius: 5px;
+    padding: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.action-button{
+    background-color: rgb(99, 199, 199);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(114, 201, 201);
+    border-radius: 5px;
+    padding: 0.5em;
+    padding-inline: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 1em; 
+    cursor: pointer;
+}
+.table {
+    border-collapse: collapse;
+    width: 95%;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.th {
+    border: 1px solid rgb(72, 112, 112);
+    padding: .25em;
+    background-color: rgb(72, 112, 112);
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.tr {
+    border: 1px solid rgb(72, 112, 112);
+    padding: 1em;
+}
+.button-group {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+label {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.sidebar {
+    height: 100%;
+    width: 15%;
+    background-color: rgb(34, 61, 61);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidebar li {
+    list-style-type: none;
+    padding-top: .25em;
+    padding-bottom: .25em;
+}
+.sidebar a {
+    text-decoration: none;
+    color: white;
+}
+
+.select {
+    display: grid;
+    align-items: center;
+    position: relative;
+  
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    cursor: pointer;
+  
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+  }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edit Modules</title>
+        <script src="../../src/TestTemplate.js"></script>
+        <script src="../../src/Question.js"></script>
+        <script src="../../src/OpenEndedQuestion.js"></script>
+        <script src="../../src/CloseEndedQuestion.js"></script>
+        <script src="../../src/Module.js"></script>
+        <script src="../../src/User.js"></script>
+        <script src="../../src/Trainee.js"></script>
+        <script src="../../src/Trainer.js"></script>
+        <script src="../../src/Administrator.js"></script>
+        <script src="../../src/Registry.js"></script>
+        <script src="../../src/components/admin/EditModules.js"></script>
+        <script src="../../lib/jquery-3.6.0.min.js"></script>
+        <link href="../../css/admin/dashboard.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="../../pages/admin/dashboard.html">
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="../../pages/admin/users.html">
+                        <p>View Users</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="../../pages/admin/modules.html">
+                        <p>View Modules</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="../../login.html">
+                        <p>Logout</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="header">
+            <h1>Admin Dashboard</h1>
+        </div> 
+        <div class="body" id="add-body">
+            <h1>Remove User</h1>
+              <script>removeUserInterface($("#add-body"));</script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Review Page</title>
+        <script src="../../src/Module.js"></script>
+        <script src="../../src/User.js"></script>
+        <script src="../../src/Trainee.js"></script>
+        <script src="../../src/Trainer.js"></script>
+        <script src="../../src/Administrator.js"></script>
+        <script src="../../src/Registry.js"></script>
+        <script src="../../src/Question.js"></script>
+        <script src="../../src/CloseEndedQuestion.js"></script>
+        <script src="../../src/OpenEndedQuestion.js"></script>
+        <script src="../../src/TestTemplate.js"></script>
+        <script src="../../src/Test.js"></script>
+        <script src="../../src/components/trainee/viewModules.js"></script>
+        <script src="../../src/components/trainee/viewTest.js"></script>
+        <script src="../../src/components/trainee/reviewGrade.js"></script>
+        <script src="../../lib/jquery-3.6.0.min.js"></script>
+        <script src="../../css/js-css/navbar.js"></script>
+
+        <!-- This is here to implement icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../../css/review.css">
+    </head>
+    <body>
+      <script>
+        reviewGrade(getUrlVars()['user'], getUrlVars()['module']);
+
+        function route(username) {
+          window.location.href = "./dashboard.html?user=" + username;
+        }
+      </script>
+      <button onclick = "route(getUrlVars()['user'])">Go Back</button>
+    </body>
+  </html>

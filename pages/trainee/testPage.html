@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        <script src="../../src/Module.js"></script>
+        <script src="../../src/User.js"></script>
+        <script src="../../src/Trainee.js"></script>
+        <script src="../../src/Trainer.js"></script>
+        <script src="../../src/Administrator.js"></script>
+        <script src="../../src/Registry.js"></script>
+        <script src="../../src/Question.js"></script>
+        <script src="../../src/CloseEndedQuestion.js"></script>
+        <script src="../../src/OpenEndedQuestion.js"></script>
+        <script src="../../src/TestTemplate.js"></script>
+        <script src="../../src/Test.js"></script>
+        <script src="../../src/components/trainee/viewModules.js"></script>
+        <script src="../../src/components/trainee/viewTest.js"></script>
+        <script src="../../lib/jquery-3.6.0.min.js"></script>
+        <script src="../../css/js-css/navbar.js"></script>
+
+        <!-- This is here to implement icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="../../src/components/trainee/marking.css">
+        <link rel="stylesheet" href="../../css/reset.css">
+        <link rel="stylesheet" href="../../css/trainee.css">
+        <link rel="stylesheet" href="../../css/test.css">
+    </head>
+    <body>
+      <script>
+        loadTest(getUrlVars()['user'], getUrlVars()['module']);
+      </script>
+
+      <button onclick = "submitTest(getUrlVars()['module'], getUrlVars()['user'])">Submit</button>
+
+    </body>
+  </html>

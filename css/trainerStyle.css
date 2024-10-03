@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(217, 238, 236);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+label {
+    margin-right: 2%;
+}
+
+header {
+    color: rgb(255, 255, 255);
+    background-color: rgb(72, 112, 112);
+    padding: 2%;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center
+}
+
+li {
+    padding: 1%;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+li button {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 1%;
+    margin-right: 0%;
+    font-size: 100%;
+    background-color: yellowgreen;
+}
+
+button {
+        margin-top: 1%;
+        background-color: #4CAF50; 
+        border: none;
+        font-size: 140%;
+        color: white;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        text-align: center;
+        margin-left: 1%;
+        margin-right: 1%;
+}
+
+.return{
+    text-align: right;
+    font-size: 100%;
+}
+
+.return button {
+    margin-top: 0%;
+    border: white; 
+    border-style: initial;
+    padding-top: 0%;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: rgb(72, 112, 112);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    text-decoration: none;
+    color: white; 
+    width: 16%;
+}
+
+p{
+    font-size: 150%;
+    font-weight: bold;
+    text-align: left;
+}

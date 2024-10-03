@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trainee Dashboard</title>
+        <script src="../../src/Module.js"></script>
+        <script src="../../src/User.js"></script>
+        <script src="../../src/Trainee.js"></script>
+        <script src="../../src/Trainer.js"></script>
+        <script src="../../src/Administrator.js"></script>
+        <script src="../../src/Registry.js"></script>
+        <script src="../../src/Question.js"></script>
+        <script src="../../src/CloseEndedQuestion.js"></script>
+        <script src="../../src/OpenEndedQuestion.js"></script>
+        <script src="../../src/TestTemplate.js"></script>
+        <script src="../../src/components/trainee/viewModules.js"></script>
+        <script src="../../src/components/trainee/viewTest.js"></script>
+        <script src="../../lib/jquery-3.6.0.min.js"></script>
+        <script src="../../css/js-css/navbar.js"></script>
+
+
+        <!-- This is here to implement icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../../css/reset.css">
+        <link rel="stylesheet" href="../../css/trainee.css">
+        <link rel="stylesheet" href="../../css/js-css/sidebar.css">
+    </head>
+
+    <body style = "background-color: #dddfd4;">
+      <!-- Taken and editted from https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp -->
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a class = "fa fa-book" href=""> Modules</a>
+        <a class="fa fa-question-circle" href=""> Support</a>
+        <a class="fa fa-sign-out" href="../../login.html"> Signout</a>
+      </div>
+      <div id="main">
+        <button class="openbtn" onclick="openNav()"> ☰ </button>
+      </div>
+        <h1 class = "titleDashboard">Trainee Dashboard</h1>
+
+        <table id = "modulesTable"  class = "testTable">
+          <thead>
+            <tr>
+              <th class = "moduleCode">Module Code</th><th class = "moduleName">Module Name</th><th class = "moduleActions">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+
+              <script>
+                addTraineesModulesToTable($("#modulesTable"), getUrlVars()['user']);
+              </script>
+          </tbody>
+        </table>
+    </body>
+</html>

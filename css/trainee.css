@@ -1,0 +1,80 @@
+
+.navbar_icon{
+    font-size:30px;
+    cursor:pointer;
+    margin-left: 30px;
+}
+
+
+.testbutton{
+    border-radius: 5px;
+    background: orange;
+    color: white;
+    border-color: 1 pt solid black;
+    padding: 5px;
+    margin: 2px;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+.testbutton:hover{
+    border-radius: 5px;
+    background: rgb(228, 149, 2);
+    color: white;
+    border-color: 1 pt solid black;
+    padding: 5px;
+    margin: 2px;
+}
+
+.testTable{
+    margin: 20px;
+    color: rgb(17, 17, 17);
+    background-color: #f2f3f4;
+    width:800px;
+    margin:0 auto;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.moduleCode{
+    margin: 20px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.moduleName{
+    margin: 20px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.moduleActions{
+    margin: 20px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.moduleContent{
+    color: rgb(61, 50, 114);
+    font-size: 1.1em;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.titleDashboard{
+  margin: 10px;
+  font-size: 2.4em;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#mySidebar a{
+    margin-block: 1em;
+}

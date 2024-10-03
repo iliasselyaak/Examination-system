@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../../css/trainerStyle.css">
+        <script src="../../src/components/trainer/TrainerInterface.js"></script>
+        <script src="../../src/components/trainer/viewQuestions.js"></script>
+        <script src="../../src/components/trainer/chooseTest.js"></script>
+        <script src="../../src/components/trainer/createTest.js"></script>
+        <script src="../../src/components/trainer/editTest.js"></script>
+        <script src="../../src/components/trainer/addCEQuestion.js"></script>
+        <script src="../../src/TestTemplate.js"></script>
+        <script src="../../src/components/trainer/sideButtons.js"></script>
+        <script src="../../src/Test.js"></script>
+        <script src="../../src/Question.js"></script>
+        <script src="../../src/CloseEndedQuestion.js"></script>
+        <script src="../../src/components/trainer/questionToTest.js"></script>
+        <script src="../../src/OpenEndedQuestion.js"></script>
+        <script src="../../src/User.js"></script>
+        <script src="../../src/Trainer.js"></script>
+        <script src="../../src/Registry.js"></script>
+        <script src="../../src/Module.js"></script>
+        <script src="../../src/components/Login.js"></script>
+        <script src="../../src/Trainee.js"></script>
+        <script src="../../src/Administrator.js"></script>
+        <script src="../../src/components/Login.js"></script>
+        <script src="../../lib/jquery-3.6.0.min.js"></script>
+
+
+        <title>Trainer</title>
+    </head>
+    <body>
+        <header>Trainer - Your Modules</header>
+        <div class="return"><button onClick="logout()"> Logout</button></div>
+        <ul><script>
+            if(getUrlVars()['users']==null){
+                trainerModules(sessionStorage.getItem("username"));
+            }
+            else{
+                trainerModules(getUrlVars()['users']);
+            }
+        </script></ul>
+        
+
+    
+        
+    </body>
+</html>

@@ -1,0 +1,80 @@
+body{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #dddfd4;
+}
+
+.incorrect{
+  background-color: #ffcccb;
+}
+
+.correct{
+  background-color: #c0ffc8;
+}
+
+#whole{
+  background-color: #f2f3f4;
+  margin: auto;
+  width: 70%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 35px;
+  text-align: left;
+  border-radius: 5px;
+  position: relative;
+}
+
+.question{
+  font-size: 1.2em;
+}
+
+.questionBox{
+  position: relative;
+}
+
+.mark{
+  position: absolute;
+  right: 45px;
+  top: 15%;
+  border-style: solid;
+  border-color: orange;
+  background-color: orange;
+  border-radius: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  color: white;
+}
+
+.grade{
+  padding-top: 40px;
+  font-size: 1.2em;
+  color: orange;
+  font-weight: bold;
+}
+
+.heading{
+  margin: 10px;
+  font-size: 1.5em;
+  padding-top: 10px;
+}
+
+button{
+    border-radius: 5px;
+    background: orange;
+    color: white;
+    border-color: 1 pt solid black;
+    padding: 8px;
+    margin: 20px;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+button:hover{
+    border-radius: 5px;
+    background: rgb(228, 149, 2);
+    color: white;
+    border-color: 1 pt solid black;
+}
